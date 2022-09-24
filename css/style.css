@@ -1,0 +1,66 @@
+@import url("https://fonts.google.com/specimen/M+PLUS+1?query=M+Plus+1");
+h1 {
+    font-family:'M PLUS 1';
+    font-size: 36px;
+    font-weight: bold;
+}
+h2 {
+    font-family: 'M PLUS 1'; 
+    font-size: 32px;
+    font-weight: bold;
+}
+h3 {
+    font-family: 'M PLUS 1'; 
+    font-size: 24px;
+    font-weight: bold;
+}
+h4 {
+    font-family: 'M PLUS 1'; 
+    font-size: 16px;
+    font-weight: bold;
+}
+h5 {
+    font-family: 'M PLUS 1'; 
+    font-size: 14px;
+    font-weight: bold;
+}
+h6 {
+    font-family: 'M PLUS 1'; 
+    font-size: 12px;
+    font-weight: bold;
+}
+p,ol,ul {
+    font-family: 'Madali';
+    font-size: 24;
+}
+a:link {
+    color: #000E8C
+}
+a:hover {
+    color: #FFA800
+}
+a:visited {
+    color: #00B2FF
+}
+button:hover {
+    background-color: #000E8C;
+    font-size: 32em;
+    font-family: 'Madali'; 
+    color: #FFA800;   
+    border: 5px solid #FFFFFF
+}
+button:default {
+    color: #ABABAB;
+    font-size: 32em;
+    font-family: 'Madali';
+    background-color:#000E8C
+}
+button:visited {
+    color: #000E8C;
+    font-size: 32em;
+    font-family: 'Madali';
+    background-color:#00B2FF
+}
+hr {
+    border: 2.5px solid #000E8C
+}
