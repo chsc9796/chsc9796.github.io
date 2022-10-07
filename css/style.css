@@ -2,6 +2,9 @@
     width: 200px;
     height: 300px;
 }
+.resume {
+    text-align: center;
+}
 @media screen and (max-width: 1920px) {
     h1 {
         font-family: 'M PLUS 1', sans-serif;
@@ -38,7 +41,7 @@
         font-size: 24px;
     }
     a:link {
-        color: #000E8C
+        color: #ABABAB
     }
     a:hover {
         color: #FFA800
@@ -48,25 +51,25 @@
     }
     button:hover {
         background-color: #000E8C;
-        font-size: 32em;
+        font-size: 24px;
         font-family: 'Mada', sans-serif;
         color: #FFA800;   
-        border: 5px solid #FFFFFF
+        border: 5px solid #FFFFFF;    
     }
     button:default {
         color: #ABABAB;
-        font-size: 32em;
+        font-size: 24px;
         font-family: 'Mada', sans-serif;
-        background-color:#000E8C
+        background-color:#000E8C;
     }
     button:visited {
         color: #000E8C;
-        font-size: 32em;
+        font-size: 24px;
         font-family: 'Mada', sans-serif;
-        background-color:#00B2FF
+        background-color:#00B2FF;
     }
     hr {
-        border: 2.5px solid #000E8C
+        border: 2.5px solid #000E8C;
     }
     nav {
         background-color: #000E8C;
@@ -94,12 +97,16 @@
         font-size: 24px;
         font-family: 'Mada', sans-serif;
         color: #FFA800;   
-        border: 5px solid #FFFFFF
+        border: 5px solid #FFFFFF;
     }
     .home-image {
         float: left;
         padding: 25px;
 
+    }
+    .gamesImage {
+        float:right;
+        padding: 25px;
     }
     .grid {
         display: grid;
@@ -107,7 +114,13 @@
         gap: 1px;
         width: 200px;
         height: 300px;
+        list-style-type: none;
     }
+    .homepage-imagetext{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
 }
 @media screen and (max-width: 800px) {
     h1 {
@@ -148,11 +161,56 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 1px;
+        list-style-type: none;
 
     }
     .home-image {
         float: left;
         padding: 25px;
         margin: 0px 20px 0px 0px;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1px;
+    }
+    .gamesImage {
+        float:right;
+        padding: 25px;
+        width: 92px;
+        height: 110px;
+    }
+    button:hover {
+        background-color: #000E8C;
+        font-size: 10px;
+        font-family: 'Mada', sans-serif;
+        color: #FFA800;   
+        border: 5px solid #FFFFFF;
+        width: 50px;    
+        height: 50px;
+        
+    }
+    button:default {
+        color: #ABABAB;
+        font-size: 10px;
+        font-family: 'Mada', sans-serif;
+        background-color:#000E8C;
+        width: 50px;
+        height: 50px;
+    }
+    button:visited {
+        color: #000E8C;
+        font-size: 10px;
+        font-family: 'Mada', sans-serif;
+        background-color:#00B2FF;
+        width: 50px;
+        height: 50px
+    }
+    .homepage-imagetext{
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
